@@ -1,8 +1,7 @@
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { Box, Flex } from '@chakra-ui/core';
-import { base16AteliersulphurpoolLight } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import { base16AteliersulphurpoolLight } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 import { config } from '../json/config';
-import Container from './Container';
 import CopyButton from './CopyButton';
 
 const Component = () => (
