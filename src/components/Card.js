@@ -22,10 +22,12 @@ const Card = ({
       m={5}
     >
       <Box backgroundColor={background} p={10} roundedTop="lg"></Box>
-      <Box textAlign="center" rounded="lg" mt={-8}>
+      <Box textAlign="center" rounded="lg" mt={-8} mb={1}>
         <Avatar src={imgUrl} name={name} size="lg" bg="white" />
       </Box>
-      <Heading textAlign="center">{name}</Heading>
+      <Heading textAlign="center" as="h3" size="lg">
+        {name}
+      </Heading>
       <Box textAlign="center">
         <Text p={2}>{description}</Text>
         <Flex justifyContent="center">
