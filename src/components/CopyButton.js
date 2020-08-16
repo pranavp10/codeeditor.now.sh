@@ -15,7 +15,7 @@ const CopyButton = () => {
         }, 1000);
       }}
     >
-      <Button variantColor="orange" size="xs">
+      <Button variantColor="blue" size="xs">
         {copy}
       </Button>
     </CopyToClipboard>
