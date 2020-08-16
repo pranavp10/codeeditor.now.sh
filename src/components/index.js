@@ -7,6 +7,7 @@ import SEO from './SEO';
 import Card from './Card';
 import Extensions from './Extensions';
 import ListContainer from './ListContainer';
+import ConfigCode from './ConfigCode';
 
 export {
   Hero,
@@ -18,4 +19,5 @@ export {
   Card,
   Extensions,
   ListContainer,
+  ConfigCode,
 };
