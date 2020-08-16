@@ -1,4 +1,4 @@
-import { Heading, Flex, Box } from '@chakra-ui/core';
+import { Heading, Flex, Box, Button, Link } from '@chakra-ui/core';
 import Container from './Container';
 import HeroContainer from './HeroContainer';
 
@@ -23,6 +23,15 @@ const Hero = () => (
             VS code is my favorite Code Editor of all time because it give me
             the power to customize the whole Editor out of the box
           </Box>
+          <Link
+            href="https://code.visualstudio.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button variantColor="gray" rightIcon="arrow-forward">
+              Download
+            </Button>
+          </Link>
         </Box>
       </Container>
     </HeroContainer>
