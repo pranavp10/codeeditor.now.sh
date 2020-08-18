@@ -135,13 +135,70 @@ const extension = [
     background: '#8647ae',
   },
   {
-    name: '',
-    description: '',
-    imgUrl: 'icons/',
-    githubLink: '',
-    website: '',
-    marketplace: '',
-    background: '#1E1E1E',
+    name: 'HTML CSS Support',
+    description: 'Auto complete the css class for html',
+    imgUrl: 'icons/htmlcss.png',
+    githubLink: 'https://github.com/ecmel/vscode-html-css',
+
+    marketplace:
+      'https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css',
+    background: '#000000',
+  },
+  {
+    name: 'HTML Snippets',
+    description: 'Full HTML tags including HTML5 Snippets',
+    imgUrl: 'icons/html.png',
+    marketplace:
+      'https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets',
+    background: '#e44d26',
+  },
+  {
+    name: 'Import Cost',
+    description: 'The size of the imported package.',
+    imgUrl: 'icons/importCost.png',
+    githubLink: 'https://github.com/wix/import-cost',
+    marketplace:
+      'https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost',
+    background: '#2471bd',
+  },
+  {
+    name: 'JS (ES6) code snippets',
+    description: 'Code snippets for JavaScript in ES6 syntax',
+    imgUrl: 'icons/es6.png',
+    githubLink: 'https://github.com/xabikos/vscode-javascript',
+    marketplace:
+      'https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets',
+    background: '#d2b318',
+  },
+  {
+    name: 'Kite',
+    description:
+      'AI-powered programming assistant that helps you write Python & JavaScript code inside Visual Studio Code.',
+    imgUrl: 'icons/kite.png',
+    githubLink: 'https://github.com/kiteco/vscode-plugin',
+    website: 'https://www.kite.com/',
+    marketplace:
+      'https://marketplace.visualstudio.com/items?itemName=kiteco.kite',
+    background: '#0083d6',
+  },
+  {
+    name: 'npm',
+    description:
+      'npm scripts defined in the package.json file and validating the installed modules against the dependencies defined in the package.json.',
+    imgUrl: 'icons/npm.png',
+    githubLink: 'https://github.com/Microsoft/vscode-npm-scripts',
+    marketplace:
+      'https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script',
+    background: '#c93331',
+  },
+  {
+    name: 'npm Intellisense',
+    description: 'autocompletes npm modules in import statements.',
+    imgUrl: 'icons/npm.png',
+    githubLink: 'https://github.com/ChristianKohler/NpmIntellisense',
+    marketplace:
+      'https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense',
+    background: '#c93331',
   },
   {
     name: 'Prettier-Code formatter',
@@ -152,6 +209,54 @@ const extension = [
     marketplace:
       'https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode',
     background: '#ffe04b',
+  },
+  {
+    name: 'Path Intellisense',
+    description: 'Auto Completes filenames.',
+    imgUrl: 'icons/path.png',
+    githubLink: 'https://github.com/ChristianKohler/PathIntellisense',
+    marketplace:
+      'https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense',
+    background: '#30384f',
+  },
+  {
+    name: 'Peacock',
+    description:
+      'Subtly change the workspace color of your workspace. Ideal when you have multiple VS Code instances and you want to quickly identify which is which.',
+    imgUrl: 'icons/peacock.png',
+    githubLink: 'https://github.com/johnpapa/vscode-peacock',
+    website: 'https://papapeacockstorage.z13.web.core.windows.net/',
+    marketplace:
+      'https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock',
+    background: '#0083d6',
+  },
+  {
+    name: 'Settings Sync',
+    description:
+      'Synchronize Settings, Snippets, Themes, File Icons, Launch, Keybindings, Workspaces and Extensions Across Multiple Machines Using GitHub Gist.',
+    imgUrl: 'icons/sync.png',
+    githubLink: 'https://github.com/shanalikhan/code-settings-sync',
+    marketplace:
+      'https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync',
+    background: '#353535',
+  },
+  {
+    name: 'TODO Highlight',
+    description: 'highlight TODOs, FIXMEs, and any keywords, annotations...',
+    imgUrl: 'icons/todo.png',
+    githubLink: 'https://github.com/wayou/vscode-todo-highlight',
+    marketplace:
+      'https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight',
+    background: '#eb5151',
+  },
+  {
+    name: 'vscode-icons',
+    description: 'Bring icons to your Visual Studio Code',
+    imgUrl: 'icons/icons.png',
+    githubLink: 'https://github.com/vscode-icons/vscode-icons',
+    marketplace:
+      'https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons',
+    background: '#0083d6',
   },
 ];
 
