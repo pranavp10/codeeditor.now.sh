@@ -13,7 +13,7 @@ import { config } from '../json/config';
 import CopyButton from './CopyButton';
 
 const Component = () => (
-  <Box display="flex" justifyContent="center" mt={5}>
+  <Box mt={5} pl={[5, 50, 80, 250]} pr={[5, 50, 100, 250]}>
     <Box>
       <Heading textAlign="center">VS Code JSON settings</Heading>
       <br />
@@ -29,10 +29,18 @@ const Component = () => (
       <br />
       <List as="ol" styleType="decimal" mb={50}>
         <ListItem>
-          Open a Drop down by pressing <Code>Ctrl + p</Code>
+          Download the{' '}
+          <a href="OperatorMono-BookItalic.otf" download>
+            <Code variantColor="blue">Operator Mono</Code>
+          </a>{' '}
+          font and Installed
         </ListItem>
         <ListItem>
-          Type <Code> >Open Settings (JSON)</Code> and select the Drop option
+          Open a Drop down by pressing <Code variantColor="blue">Ctrl + p</Code>
+        </ListItem>
+        <ListItem>
+          Type <Code variantColor="blue"> Open Settings (JSON)</Code> and select
+          the Drop option
         </ListItem>
         <ListItem>Copy past the whole below JSON file and save it</ListItem>
         <ListItem>You will see the Changes 😎</ListItem>
