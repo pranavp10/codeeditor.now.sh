@@ -258,6 +258,25 @@ const extension = [
       'https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons',
     background: '#0083d6',
   },
+  {
+    name: 'Dracula',
+    description: 'Theme',
+    imgUrl: 'icons/dracula.png',
+    githubLink: 'https://github.com/dracula/visual-studio-code',
+    website: 'https://draculatheme.com/visual-studio-code',
+    marketplace:
+      'https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula',
+    background: '#3c4557',
+  },
+  {
+    name: 'Cobalt2',
+    description: 'Theme',
+    imgUrl: 'icons/cobalt2.png',
+    githubLink: 'https://github.com/wesbos/cobalt2-vscode',
+    marketplace:
+      'https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2',
+    background: '#122738',
+  },
 ];
 
 export { extension };
