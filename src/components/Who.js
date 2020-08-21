@@ -28,8 +28,8 @@ const Who = () => (
             isExternal
           >
             <Code variantColor="blue">Github Gist</Code>, if you still face any
-            problem downloading the settings?
-          </Link>{' '}
+          </Link>
+          problem downloading the settings?
         </Box>
         <Box textAlign={['center', 'center', 'left', 'left']}>
           <Link href="mailto:pranavkp.me@outlook.com?subject=issues%20with%20downloading%20vs%20code%20settings&body=Let%20me%20know%20the%20issues%20what%20you%20are%20facing">
