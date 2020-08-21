@@ -20,8 +20,8 @@ const Hero = () => (
             Professional
           </Heading>
           <Box color="gray.100" mb={4} fontSize="lg">
-            VS code is my favorite Code Editor of all time because it give me
-            the power to customize the whole Editor out of the box
+            A code editor for Frontend development that improves your
+            efficiency.
           </Box>
           <Link
             href="https://code.visualstudio.com/"
