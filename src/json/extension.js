@@ -1,7 +1,8 @@
 const extension = [
   {
     name: 'Auto Import',
-    description: 'define it later',
+    description:
+      'Automatically finds, parses and provides code actions and code completion for all available imports. Works with Typescript and TSX.',
     imgUrl: 'icons/AutoImport.png',
     githubLink: 'https://github.com/soates/Auto-Import',
     marketplace:
@@ -10,7 +11,7 @@ const extension = [
   },
   {
     name: 'Auto Rename Tag',
-    description: 'define it later',
+    description: 'Auto rename paired HTML/XML tag',
     imgUrl: 'icons/autoRename.png',
     githubLink: 'https://github.com/formulahendry/vscode-auto-rename-tag',
     marketplace:
@@ -19,7 +20,8 @@ const extension = [
   },
   {
     name: 'Bracket Pair Colorizer',
-    description: 'define it later',
+    description:
+      'A customizable extension for colorizing matching brackets Installation',
     imgUrl: 'icons/bracket.png',
     githubLink: 'https://github.com/CoenraadS/BracketPair',
     marketplace:
@@ -202,7 +204,7 @@ const extension = [
   },
   {
     name: 'Prettier-Code formatter',
-    description: 'define it later',
+    description: 'You press save and code is formatted',
     imgUrl: 'icons/prettier.png',
     githubLink: 'https://github.com/prettier/prettier-vscode',
     website: 'https://prettier.io/',
