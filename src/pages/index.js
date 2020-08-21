@@ -7,6 +7,7 @@ import {
   SEO,
   Extensions,
   ConfigCode,
+  Who,
 } from '../components';
 
 const Index = () => (
@@ -16,6 +17,7 @@ const Index = () => (
       <Hero />
       <Extensions />
       <ConfigCode />
+      <Who />
       <Flex justifyContent="center" flexDirection="column">
         <NewsLetter />
         <Footer />

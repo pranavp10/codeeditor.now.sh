@@ -8,6 +8,7 @@ import Card from './Card';
 import Extensions from './Extensions';
 import ListContainer from './ListContainer';
 import ConfigCode from './ConfigCode';
+import Who from './Who';
 
 export {
   Hero,
@@ -20,4 +21,5 @@ export {
   Extensions,
   ListContainer,
   ConfigCode,
+  Who,
 };

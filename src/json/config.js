@@ -34,7 +34,7 @@ const config = `{
     "terminalCursor.foreground": "#ffff00",
     "editor.lineHighlightBackground": "#c8bdbd2d"
   },
-  "sync.gist": "e073fb8e20ff272cf039c30a7bd469e6",
+
   "importCost.showCalculatingDecoration": true,
   "editor.formatOnSave": true,
   // turn it off for JS and JSX, we will do this via eslint
@@ -66,6 +66,12 @@ const config = `{
   },
   "gitlens.gitCommands.closeOnFocusOut": true,
   "editor.renameOnType": true,
-  "editor.largeFileOptimizations": false
-}`;
+  "editor.largeFileOptimizations": false,
+  "sync.autoDownload": false,
+  "auto-rename-tag.activationOnLanguage": [
+    "*"
+  ],
+  "sync.gist": "0f8ef2730499efee297b796b310e9b44"
+}
+`;
 export { config };
